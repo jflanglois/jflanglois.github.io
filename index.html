@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Julien Langlois</title>
     <meta name="description" content="Julien Langlois, software engineering manager">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"></noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
     <style type="text/css">
       body {
         padding: 20px 40px;
@@ -27,11 +24,13 @@
       a {
         color: #47D;
         font-size: 1.5em;
-        text-decoration: none;
-        transition: background-color 1s ease;
+        text-decoration: underline dotted;
+        text-decoration-color: transparent;
+        transition: text-decoration-color 1s ease;
       }
       a:hover {
-        background-color: #ADF;
+        text-decoration-color: #47D;
+        transition: text-decoration-color 300ms ease-out;
       }
       ul {
         list-style-type: none;
