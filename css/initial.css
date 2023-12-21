@@ -1,0 +1,34 @@
+body {
+  padding: 20px 40px;
+}
+
+h1, li {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #47D;
+  font-size: 1.5em;
+  text-decoration: underline dotted;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 1s ease;
+}
+
+a:hover {
+  text-decoration-color: #47D;
+  transition: text-decoration-color 300ms ease-out;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
